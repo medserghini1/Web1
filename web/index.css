@@ -1,0 +1,80 @@
+.titre1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.titre1:hover{
+    color: red;
+}
+
+@media screen and (max-width:400px) {
+    .titre1{
+        color: green;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:850px) {
+    .titre1{
+        color: pink;
+    }
+}
+
+.titre2{
+    color: blue;
+    text-align: end;
+
+}
+.image1{
+    border-radius: 50%;
+    width: 300px ;
+    height: 300px;
+}
+.barcelone{
+    border-radius: 50%;
+    width: 300px ;
+    height: 300px;
+}
+.arsenal{
+    border-radius: 100%;
+    width: 300px ;
+    height: 300px;
+}
+.manchcity{
+    border-radius: 150%;
+    width: 300px ;
+    height: 300px;
+}
+.bayern{
+    border-radius: 2rem;
+    width: 300px ;
+    height: 300px;
+}
+img{
+    margin-right: 50px ;
+    margin-bottom: 50px ;
+}
+img:hover{
+    cursor: grab;
+}
+li{
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 900px;
+    font-family: 'Courier New', Courier, monospace;
+}
+li:hover{
+    cursor: pointer;
+    color: blue;
+}
+.liste{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.liste2{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    gap: 150px;
+}
